@@ -1,5 +1,7 @@
 outguess是一个图片隐写软件，可以在github上下载：https://github.com/crorvick/outguess，
 根据说明编译使用
+chmod   a+x ./configure
+./configure && make && make install
 google找到的使用方法
 
 加密：
