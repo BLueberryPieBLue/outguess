@@ -1,0 +1,10 @@
+根据说明编译使用
+
+加密：
+outguess -k "my secret key" -d hidden.txt demo.jpg out.jpg
+加密之后，demo.jpg会覆盖out.jpg,
+hidden.txt中的内容是要隐藏的东西
+
+解密：
+outguess -k "my secret key" -r out.jpg hidden.txt
+解密之后，解密内容放在hidden.txt中
